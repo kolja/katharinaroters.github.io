@@ -1,11 +1,16 @@
 
+
+document.getElementById("main").style.display = 'block';
+
 let pages = {
     photography: "photography",
     wunderblock: "wunderblock",
     paintings: "paintings",
     drawings: "drawings",
     about: "about",
-    contact: "contact"
+    contact: "contact",
+    portfolio: "portfolio",
+    main: "main"
 }
 
 function page(s) {
