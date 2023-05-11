@@ -3,14 +3,14 @@
 document.getElementById("main").style.display = 'block';
 
 let pages = {
+    main: "main",
     photography: "photography",
     wunderblock: "wunderblock",
     paintings: "paintings",
     drawings: "drawings",
+    portfolio: "portfolio",
     about: "about",
     contact: "contact",
-    portfolio: "portfolio",
-    main: "main"
 }
 
 function page(s) {
